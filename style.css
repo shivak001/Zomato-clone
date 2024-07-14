@@ -1,4 +1,56 @@
 .root{
-    margin-left: 100px;
-    margin-right: 100px
+    margin-left: 150px;
+    margin-right: 150px
+}
+.zomato{
+    display: flex;
+    align-items: center;
+   
+}
+.search{
+    height: 70px;
+    width: 700px;
+    border:2px solid aliceblue;
+    border-radius: 10px;
+    box-shadow:0.5px 0.5px 1.8px hsl(0deg 0% 0% / 0.47);
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.location{
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+}
+.space{
+    margin-left: 10px;
+}
+.input-loc{
+    margin-left: 10px;
+}
+.loc{
+    font-size: 20px         ;
+    border: none;
+}
+.v1{
+    border-left: 3px solid rgb(219, 206, 206);
+    height: 30px;
+}
+.loc:focus{
+    outline: none;
+}
+.item-search{
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+}
+.input-item{
+    margin-left: 10px;
+}
+.item-dish{
+    font-size: 20px;
+    border: none;
+}
+.item-dish:focus{
+    outline: none;
 }
