@@ -2,14 +2,18 @@
     margin-left: 150px;
     margin-right: 150px
 }
+.header{
+    background-color: azure;
+}
 .zomato{
     display: flex;
     align-items: center;
    
 }
+
 .search{
     height: 70px;
-    width: 700px;
+    width: 900px;
     border:2px solid aliceblue;
     border-radius: 10px;
     box-shadow:0.5px 0.5px 1.8px hsl(0deg 0% 0% / 0.47);
@@ -53,4 +57,41 @@
 }
 .item-dish:focus{
     outline: none;
+}
+.Log{
+    margin-left: 100px;
+}
+.Log a{
+    background-color: white;
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    margin-right: 50px;
+    
+}
+.Log a:hover{
+    color: rgb(65, 53, 53);
+}
+.Location-details a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    margin-right: 10px;
+}
+.Location-details a:hover{
+    color: rgb(219, 83, 83);
+}
+.eat-type{
+    margin-top: 30px;
+}
+.eat-type a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(94, 83, 83);
+    
+
+}
+.eat-type a:focus{
+    border-bottom:2px solid rgb(215, 72, 72) ;
 }
